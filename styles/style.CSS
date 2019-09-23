@@ -1,0 +1,132 @@
+/* Start Body */
+body {
+    background-color: #bbd88b;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif:
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}  
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: blueviolet;
+}
+.bg-red {
+    background-color: palevioletred;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto; 
+    width: 90%;
+} 
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: black;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid #333333;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover  {
+    background-color: blue;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: mediumvioletred;
+    color: #333333;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Star Jumbotron */
+
+.jumbotron {
+    background-color: burlywood;
+    border: 1 px solid black;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32 px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 32 px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49%;
+}
+/* end Main */
+
+/* Start Box */
+.box-heading {
+    background-color: #5e8ebe;
+    border: 1px solid #0b1f38;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+    
+.box-isi {
+    background-color: #bbd88b;
+    border: 1px solid #476594;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    color: #000000;
+}
+/* End Box */
